@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+.header {
+    background-color: #363636;
+    height: 100px;
+    overflow: hidden;
+}
+
+.logo1 {
+    float: left;
+}
+
+.logo1 > img {
+    height: 100px;
+    width: auto;
+}
+
+.logo2 {
+    float: left;
+}
+
+.logo2 > img {
+    height: 75px;
+    width: auto;
+}
+
+.nav {
+    float: left;
+    width: 800px;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none ;
+    height: 100px;    
+}
+
+.nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px, 10px;
+}
+
+.nav a:hover {
+    background-color: grey;
+}
+
+.home-img {   
+    overflow: hidden;
+    height: calc(105vh - 40px);    
+    background-image: url('../img/aueb_dark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-title {
+    width: 50%;   
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.main-title {
+    margin: 1%;
+    font-size: 2rem;
+}
+
+.title {
+    width: 50%;    
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    font-size: 30px;
+    opacity: 70%;
+}
+
+
+.text {
+    font-size: 1.3rem;
+    text-align: start;
+    margin: 1%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    opacity: 50%;
+}
+
+.footer {
+    background-color: #363636;
+    height: 100px;    
+    overflow: hidden;     
+}
+
+.footer > p {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px, 10px;
+    margin-top: 40px;          
+}
+
+.left {
+    margin-left: 1%;       
+}
+
+.right {
+    margin-left: 48%;            
+}
+
+.fa-brands {  
+    position: relative ;
+    top: 5px; 
+    left: 10px;
+    font-size: 2rem;
+    padding: 2px;      
+}

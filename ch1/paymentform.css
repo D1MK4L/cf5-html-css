@@ -1,0 +1,63 @@
+form{
+    width: 50%;    
+    margin: auto;
+}
+
+abbr{
+    color: red;
+}
+
+.select {
+    width: 40%;
+    margin-left: 20%;
+}
+
+.name {  
+    margin-left: 11%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.email {  
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pass {  
+    margin-left: 7.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ctype {
+    margin-left: 7%;
+}
+
+.cnumber {  
+    margin-left: 4%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.expd {     
+    margin-left: 2.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.valid { 
+    
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
